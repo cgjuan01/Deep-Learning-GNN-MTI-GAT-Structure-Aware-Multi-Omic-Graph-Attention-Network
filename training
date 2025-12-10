@@ -255,7 +255,7 @@ def main():
         base = args.node_path.rsplit("/", 1)[-1].replace(".tsv", "")
         out_path = (
             "/Users/ciara/Downloads/LDaware_MR_proteins/"
-            f"GNN_embeddings_EXERCISEONLY_GAT_SUP_MTI_MULTI_MR_SC_STRUCT_PANTHER_REPANTHER.tsv"
+            f"GNN_embeddings_EXERCISEONLY_GAT_SUP_MTI_MULTI_MR_SC_STRUCT_PANTHER.tsv"
         )
     else:
         out_path = args.out_path
