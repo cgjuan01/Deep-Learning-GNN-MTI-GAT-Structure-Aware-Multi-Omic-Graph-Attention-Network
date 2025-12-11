@@ -110,4 +110,4 @@ This GAT integrates:
 
 to deliver a structure-aware, evidence-integrated prioritisation of exercise-responsive genes.
 
-The new hybrid ranking ensures that genes with strong multi-omic support—such as key ageing regulators (SIRT1) and enzymatic hubs (B4GALT1, FUT8, ST6GAL1)—are correctly elevated in the final prioritisation.
+The new hybrid ranking ensures that genes with strong multi-omic support are correctly elevated in the final prioritisation.
