@@ -2,7 +2,7 @@ Deep Learning GNN (MTI–GAT): Structure-Aware Multi-Omic Graph Attention Networ
 
 This repository implements a supervised Graph Attention Network (GAT) for prioritising exercise-responsive and ageing-associated genes by integrating causal inference, multi-omic evidence, protein structure, function, and graph topology.
 
-The model learns structure and function-aware MTI embeddings and produces a hybrid MTI + multi-omic gene ranking that improves on raw MR- or MTI-derived scores.
+The model learns structure and function-aware MTI embeddings and produces a hybrid MTI + multi-omic gene ranking that improves on raw MR or MTI-derived scores.
 
 Overview
 
