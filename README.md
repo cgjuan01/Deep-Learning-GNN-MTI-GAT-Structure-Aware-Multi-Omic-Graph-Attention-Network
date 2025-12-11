@@ -52,18 +52,18 @@ Feature Groups:
 AlphaFold v6 Structural Features (NEW)
 
 Derived from the official Homo sapiens AFv6 proteome dump:
--modelled length
--mean and variance of pLDDT
--fraction above confidence thresholds (≥70, ≥90)
--coarse disorder / exposure proxies
+1) modelled length
+2) mean and variance of pLDDT
+3) fraction above confidence thresholds (≥70, ≥90)
+4) oarse disorder / exposure proxies
 
 Old AlphaFold2/4 fields (pLDDT_mean, sd, frac, n_atoms) are automatically removed.
 
 PANTHER Functional Structure (4 layers):
--Protein class
--Molecular function
--Biological process
--Pathway / component hierarchy
+1) Protein class
+2) Molecular function
+3) Biological process
+4) Pathway / component hierarchy
 
 Dimensionality reduced via PCA (pc1, pc2, pc3 for each layer).
 
