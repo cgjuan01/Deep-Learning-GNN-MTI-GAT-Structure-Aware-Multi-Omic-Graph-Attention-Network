@@ -4,19 +4,15 @@ This repository implements a supervised Graph Attention Network (GAT) for priori
 
 The model learns structure and function-aware MTI embeddings and produces a hybrid MTI + multi-omic gene ranking that improves on raw MR or MTI-derived scores.
 
-Overview
+Overview:
 
 The model integrates:
 
-Mendelian randomisation (MR) causal signals across four omic layers
-
-MTI (Modified Trait Importance) as a supervised regression target
-
-AlphaFold v6 structural descriptors (pLDDT distributions, uncertainty, disorder/exposure, length)
-
-PANTHER functional annotations (protein class, MF, BP, pathway/components; 4-level structure)
-
-Topology metrics from a kNN graph (k=15): PageRank, eigenvector centrality, betweenness, clustering, etc.
+-Mendelian randomisation (MR) causal signals across four omic layers
+-MTI (Modified Trait Importance) as a supervised regression target
+-AlphaFold v6 structural descriptors (pLDDT distributions, uncertainty, disorder/exposure, length)
+-PANTHER functional annotations (protein class, MF, BP, pathway/components; 4-level structure)
+-Topology metrics from a kNN graph (k=15): PageRank, eigenvector centrality, betweenness, clustering, etc.
 
 These heterogeneous data streams are embedded via a two-layer GAT to produce biologically contextualised, structure-aware prioritisation of exercise-responsive genes.
 
